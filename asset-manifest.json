@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/colliecoder/FAST/static/css/main.e6c13ad2.css",
+    "main.js": "/colliecoder/FAST/static/js/main.bfe582c1.js",
+    "static/js/453.696d0db8.chunk.js": "/colliecoder/FAST/static/js/453.696d0db8.chunk.js",
+    "index.html": "/colliecoder/FAST/index.html",
+    "main.e6c13ad2.css.map": "/colliecoder/FAST/static/css/main.e6c13ad2.css.map",
+    "main.bfe582c1.js.map": "/colliecoder/FAST/static/js/main.bfe582c1.js.map",
+    "453.696d0db8.chunk.js.map": "/colliecoder/FAST/static/js/453.696d0db8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.bfe582c1.js"
+  ]
+}
