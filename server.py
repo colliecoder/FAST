@@ -1,10 +1,14 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import spacy
-from nltk.corpus import wordnet
 from textblob import TextBlob
 import math
 from spacy.lang.en.stop_words import STOP_WORDS
+import nltk
+
+nltk.data.path.append(os.path.join(os.getcwd(), "nltk_data"))
+
+
 
 # Load NLP model
 nlp = spacy.load("en_core_web_sm")
