@@ -7,7 +7,8 @@ import math
 from spacy.lang.en.stop_words import STOP_WORDS
 import nltk
 
-nltk.data.path.append(os.path.join(os.getcwd(), "nltk_data"))
+nltk.data.path.append('./nltk_data')
+
 
 
 
@@ -490,6 +491,10 @@ def analyze():
 @app.route("/")
 def helloworld():
     return "Hello World!"
+
+@app.route('/favicon.ico')
+def favicon():
+    return '', 204
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))  # Get the PORT from the environment or default to 5000
